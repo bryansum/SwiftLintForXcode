@@ -249,14 +249,14 @@
 				TargetAttributes = {
 					6C82001D1D111C160053733B = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = PK9GMQ772L;
+						DevelopmentTeam = DT4RU7HS47;
 						DevelopmentTeamName = "Norio Nomura";
 						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 					6C8200311D111C5B0053733B = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = PK9GMQ772L;
+						DevelopmentTeam = DT4RU7HS47;
 						DevelopmentTeamName = "Norio Nomura";
 						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
@@ -268,7 +268,7 @@
 					};
 					6CB822311D14DB4D00BFA3FA = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = PK9GMQ772L;
+						DevelopmentTeam = DT4RU7HS47;
 						DevelopmentTeamName = "Norio Nomura";
 						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
@@ -474,6 +474,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = DT4RU7HS47;
 				INFOPLIST_FILE = SwiftLintForXcode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.github.norio-nomura.SwiftLintForXcode";
@@ -488,6 +489,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = DT4RU7HS47;
 				INFOPLIST_FILE = SwiftLintForXcode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.github.norio-nomura.SwiftLintForXcode";
@@ -502,6 +504,7 @@
 				CODE_SIGN_ENTITLEMENTS = SwiftLint/SwiftLint.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = DT4RU7HS47;
 				INFOPLIST_FILE = SwiftLint/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
@@ -520,6 +523,7 @@
 				CODE_SIGN_ENTITLEMENTS = SwiftLint/SwiftLint.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = DT4RU7HS47;
 				INFOPLIST_FILE = SwiftLint/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
@@ -536,6 +540,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = DT4RU7HS47;
 				INFOPLIST_FILE = SwiftLintHelper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks @executable_path/../../../../../../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.github.norio-nomura.SwiftLintForXcode.SwiftLintHelper";
@@ -552,6 +557,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = DT4RU7HS47;
 				INFOPLIST_FILE = SwiftLintHelper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks @executable_path/../../../../../../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.github.norio-nomura.SwiftLintForXcode.SwiftLintHelper";
