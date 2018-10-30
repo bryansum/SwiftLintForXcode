@@ -34,7 +34,7 @@ class SourceEditorCommand: NSObject, XCSourceEditorCommand {
 
     func perform(with invocation: XCSourceEditorCommandInvocation, completionHandler: @escaping (Error?) -> Void ) -> Void {
 
-        var error: NSError? = nil
+        var error: Error? = nil
         defer { completionHandler(error) }
 
         if !targetContentUTIs.contains(invocation.buffer.contentUTI) { return }
@@ -113,8 +113,8 @@ class SourceEditorCommand: NSObject, XCSourceEditorCommand {
                 }
             }
         } catch let caughtError {
-            print(error)
-            error = caughtError as NSError
+            print(caughtError)
+            error = caughtError
             return
         }
 
@@ -130,10 +130,24 @@ class SourceEditorCommand: NSObject, XCSourceEditorCommand {
         return connection
     }()
 
-    private enum SwiftLintError: Error {
+    private enum SwiftLintError: Error, CustomNSError, CustomStringConvertible {
         case error(String)
         case helperConnectError
         case unknownCommandIdentifier
+
+        // CustomNSError
+        var errorUserInfo: [String : Any] {
+            return [NSLocalizedDescriptionKey: description]
+        }
+
+        // CustomStringConvertible
+        var description: String {
+            switch self {
+            case .error(let message): return "error: \(message)"
+            case .helperConnectError: return "Helper Connectiont Error"
+            case .unknownCommandIdentifier: return "Unknown Command Identifier"
+            }
+        }
     }
 
     typealias ReplyHandler = (Int, String, String) throws -> Void
